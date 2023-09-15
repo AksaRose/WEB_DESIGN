@@ -1,66 +1,447 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Department of Electronics and Communication-LBSITW </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Department of Electronics and Communication-LBSITW</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+      
+    />
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Department of Electronics and Communication </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Contents </h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >Department of Electronics and Communication
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Contents
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  aria-current="page"
+                  href="/index.html"
+                  >Acadamics</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  aria-current="page"
+                  href="/index.html"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/act.htl"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Activities
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="/sscs.html">SSCS IEEE SB</a>
+                  </li>
+                  <li><a class="dropdown-item" href="/adva.html">Advaya</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/cont.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipNjT_H7DKoWR9t6PSwDDiJy2MHT4Rfi9kkvgy6p=s680-w680-h510"
+            class="d-block w-100 img-fluid"
+            alt=" College photo" 
+            style="width: 1400px; height: 450px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Department of Electronics and Communication</h5>
+            <p>
+              Lal Bahadur Shastri Institute of Technology for Women,
+              Thiruvananthapuram
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipOlVki0-InJqSFBh6LdP0CRnovxN1hRky0nIFSw=s680-w680-h510"
+            class="d-block w-100 img-fluid"
+            alt="Image"
+            style="width: 1400px; height: 450px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Department of Electronics and Communication</h5>
+            <p>
+              Lal Bahadur Shastri Institute of Technology for Women,
+              Thiruvananthapuram
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipMu_4KQn2_DLnxSYKtSoWzR0FN8-TB6cHvrhiC0=s680-w680-h510"
+            class="d-block w-100 img-fluid"
+            alt="Image"
+            style="width: 1400px; height: 450px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Department of Electronics and Communication</h5>
+            <p>
+              Lal Bahadur Shastri Institute of Technology for Women,
+              Thiruvananthapuram
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div id="pg-149-1" class="panel-grid panel-no-style">
+        <div id="pgc-149-1-0" class="panel-grid-cell">
+          <div class="thim-heading heading-left my-4 mx-5">
+            <h3 class="title"></h3>
+            <p class="subtitle">
+              Department of Electronics and Communication - B.Tech Electronics
+              and Communication Engineering is NBA Accredited
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Upcoming events</strong
+              >
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Sep 14</div>
+              <p class="card-text mb-auto">
+                Get ready for the ultimate tech experience!💫 Stay tuned for
+                details. #PrayaagTechFestComingSoon
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                src="1.jpeg"
+                alt="image"
+              />
             </div>
           </div>
         </div>
-      </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success"
+                >Highlights</strong
+              >
+              <h3 class="mb-0">Industrial Visit</h3>
+              <div class="mb-1 text-muted">July 10</div>
+              <p class="mb-auto">
+                𝐈𝐄𝐄𝐄 𝐒𝐒𝐂𝐒 𝐒𝐁𝐂 𝐋𝐁𝐒𝐈𝐓𝐖 is elated to undertake an amazing 𝐈𝐕 this
+                year to  𝐊𝐄𝐋𝐓𝐑𝐎𝐍,
+                𝘒𝘢𝘳𝘢𝘬𝘶𝘭𝘢𝘮.
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                src="2.jpeg"
+                alt="image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Blogs</strong
+              >
+              <h3 class="mb-0">Electro Enigma</h3>
+              <div class="mb-1 text-muted">Sep 1</div>
+              <p class="card-text mb-auto">
+               
+                The selection of materials is a crucial aspect of satellite design, balancing the need for structural integrity, thermal control, radiation protection, and efficient power generation and communication
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                src="3.jpeg"
+                alt="image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success"
+                >Highlights</strong
+              >
+              <h3 class="mb-0">Semiconductor Industry</h3>
+              <div class="mb-1 text-muted">Sep 10</div>
+              <p class="mb-auto">
+                Are you intrigued by the world of electronics and wondering how to build a rewarding career in this dynamic field? Join Us
+
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                src="4.jpeg"
+                alt="image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row featurette d-flex justify-content-center align-items-center mx-4">
+      <div class="col-md-6 ">
+        <h2 class="featurette-heading "> ECE Department<span class="text-muted"> Vision</span></h2>
+        <p class="lead">To become a center of excellence in Electronics, Communication, Instrumentation and Computer Engineering to facilitate professional education and research keeping level of value systems.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="5.jpg" alt="image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+    </div>
+    <div class="row featurette d-flex justify-content-center align-items-center mx-4">
+      <div class="col-md-6 order-md-2">
+        <h2 class="featurette-heading">ECE Department <span class="text-muted">Mission</span></h2>
+        <p class="lead">M1: To transform young women to high quality engineers, entrepreneurs and researchers with ethical values.
+              <br>
+              M2:To contribute creative engineering solutions to industry by keeping pace with latest technological advancements.
+              <br>
+              M3:To provide intellectual services to the society by the application of Electronics,Communiation,Intrumentation and Computer Engineering.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="6.jpg" alt="image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+    <div class=" my-5">
+    <hr class="featurette-divider ">
+    </div>
+    <div class="container my-5">
+
+      <footer class="bg-dark text-center text-lg-start text-white conta ">
+        <!-- Grid container -->
+        <div class="container fluid">
+          <!--Grid row-->
+          <div class="row mt-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"></h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                 Email: principal@lbt.ac.in
+                </li>
+                <li>
+                 principal@lbsitw.ac.in
+                </li>
+                <li>
+                  Website : www.lbt.ac.in
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">LBSITW, POOJAPURA,<BR> THIRUVANANTHAPURAM-695012</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  Ph. Office1:0471 2349232
+                </li>
+                <li>
+                 Ph.Office2:0471 2343395
+                </li>
+                <li>
+                  Office Fax: 0471 2343395
+                </li>
+                
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Useful Links</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://lbt.ac.in/sitemap/" class="text-white">Sitemap</a>
+                </li>
+                <li>
+                  <a href="http://lbt.ac.in/tender_news_lbsitw_tvm" class="text-white">Tenders/Jobs</a>
+                </li>
+                <li>
+                  <a href="http://lbt.ac.in/lbsitw_student_centre" class="text-white">Student Login</a>
+                </li>
+                
+              
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"></h5>
+    
+              <p>
+                <a href="#">Back to top</a>
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          ©2020 LBS Instituteof Technologyfor Women 
+
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+    </div>
+    <!-- End of .container -->
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
